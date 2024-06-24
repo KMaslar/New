@@ -1,0 +1,11 @@
+framework module World {
+  umbrella header "World.h"
+  export *
+
+  module * { export * }
+}
+
+module World.Swift {
+  header "World-Swift.h"
+  requires objc
+}
